@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 3</title>
+</head>
+<body>
+    <header>
+       <h1>Formulario de registro</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Información personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+            <label for="fnacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fnacimiento" name="fnacimiento"><br><br>
+            <legend>Género</legend>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Hombre</label>
+
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label>
+
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro</label>
+        </fieldset>
+        <fieldset>
+            <legend>Información de Contacto</legend>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="telefono">Número de teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Información de Cuenta</legend>
+            <label for="usuario">Nombre de usuario:</label>
+            <input type="text" id="usuario" name="usuario"><br><br>
+            <label for="pin">Contraseña:</label>
+            <input type="password" id="pin" name="pin">
+            <label for="confContraseña">Confirma tu contraseña:</label>
+            <input type="password" id="confContraseña" name="confContraseña">
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias</legend>
+            <label for="color">Escribe tu color favorito:</label>
+            <select name="COLOR">
+                <option value="rojo">Rojo</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+                <option value="amarillo">Amarillo</option>
+            </select>
+            <label for="Terminos">
+                <input type="checkbox" id="Terminos" name="Terminos">
+                Aceptar términos y condiciones
+            </label>
+        </fieldset>
+    </main>
+    
+</body>
